@@ -95,3 +95,43 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+
+hgrwg
+
+
+
+
+
+.column {
+  display:flex;
+  width: 85%;
+  height: 80%;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  margin: 10rem auto;
+}
+
+.card {
+height: 400px;
+width: 300px;
+border:5px solid #000;
+margin: 10px;
+background-color: rgba(214, 123, 151, 0.2);
+display:flex;
+flex-direction: column;
+align-items: top;
+align-items: center;
+justify-content: space-around;
+border-radius: 20px;
+}
+
+.img 
+{
+flex-wrap: wrap;
+align-items: center;
+height: 50%;
+width: 80%;
+border:2.5px solid #000;
+}
