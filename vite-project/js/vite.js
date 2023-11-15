@@ -29,24 +29,15 @@ const DOMSelectors = {
             <h3 class="card-info" id="column">${input}</h3>
     
             <img src = "${input3}" alt = "" class = "img">
-            <button type="click" id="delete">Delete</button>
+            <button type="click" class="delete">Delete</button>
         </div>
     `);
        DOMSelectors.input.value = "";
        DOMSelectors.input2.value ="";
        DOMSelectors.input3.value ="";
-       });
-    
-     DOMSelectors.delete.addEventListener("click", function(){
-        card.remove()
-    
-    
-     });
-     
-     function remove () {
-        let btns = document.querySelectorAll("button")
-        btns.forEach((button)=> button.addEventListender('click', function (event) {
-            console.log(event.target.parentElement);
-        }))
-     }
-     remove();
+       document.querySelectorAll('.delete').forEach((button) => {
+        button.addEventListener('click', function(event) {
+            event.target.parentElement.parentElement.remove();
+            });
+        });
+    });
