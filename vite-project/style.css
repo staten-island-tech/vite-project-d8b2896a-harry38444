@@ -1,15 +1,15 @@
 .column {
   display:flex;
-  width: 85%;
-  height: 80%;
+  width: 55%;
+  height: 50%;
   flex-wrap:wrap;
   justify-content: space-around;
   margin: 10rem auto;
 }
 
 .card {
-  height: 300%;
-  width: 250%;
+  height: 30vh;
+  width: 20vw;
   border:5px solid #000;
   margin: 10px;
       background-color: rgba(214, 123, 151, 0.2);
@@ -19,7 +19,7 @@
       justify-content: space-around;
       border-radius: 20px;
       box-shadow: 25px 5px 25px black;
-  
+      font-size: large;
   }
 
 .img 
@@ -35,7 +35,9 @@ border:2.5px solid #000;
   --blue: #2998ef;
   --orange:#ff7730;
   --primary: var(--blue);
-
+  --h1: 7.5rem;
+  --h2: 5rem;
+  --h3: 2.25rem;
 }
 .light {
   --primary: var(--blue);
@@ -50,6 +52,12 @@ body {
 }
 h1 {
   font-size: var(--h1);
+}
+h2 {
+  font-size: var(--h2);
+}
+h3 {
+  font-size: var(--h3);
 }
 .section-title {
   font-size:var(--h1);
