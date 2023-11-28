@@ -3,7 +3,7 @@
         name: 'Alligator',
         type: 'Carnivore',
         img: 'https://freepngimg.com/thumb/alligator/36042-9-alligator-transparent-image.png',
-        price: '1000$'
+        price: '1500$'
     },
     {
         name: 'Bat',
@@ -15,31 +15,31 @@
         name: 'Cat',
         type: 'Carnivore',
         img: 'https://www.iconarchive.com/download/i141836/iconarchive/cute-animal/Cute-Cat.1024.png',
-        price: '1000$'
+        price: '400$'
     },
     {
         name: 'Dog',
         type: 'Carnivore',
         img: 'https://bousefurhouse.com/wp-content/uploads/revslider/hospital/slider-dog-small.png',
-        price: '1000$'
+        price: '500$'
     },
     {
         name: 'Goat',
         type: 'Herbivore',
         img: 'https://static.vecteezy.com/system/resources/previews/024/722/378/original/goat-with-ai-generated-free-png.png',
-        price: '1000$'
+        price: '300$'
     },
     {
         name: 'Rabbit',
         type: 'Herbivore',
         img: 'https://www.freeiconspng.com/thumbs/rabbit-png/white-sweet-rabbit-png-7.png',
-        price: '1000$'
+        price: '100$'
     },
     {
         name: 'Deer',
         type: 'Herbivore',
         img: 'https://png.pngtree.com/png-clipart/20230506/original/pngtree-isolated-deer-on-transparent-png-image_9145489.png',
-        price: '1000$'
+        price: '200$'
     },
     {
         name: 'Cow',
@@ -57,19 +57,19 @@
         name: 'Bear',
         type: 'Omnivore',
         img: 'https://png.pngtree.com/png-vector/20230318/ourmid/pngtree-brown-bear-wild-animal-transparent-on-white-background-png-image_6655679.png',
-        price: '1000$'
+        price: '10000$'
     },
     {
         name: 'Turtle',
         type: 'Omnivore',
         img: 'https://i.pinimg.com/originals/07/7d/51/077d519a8c253bf4dc45048f358b70d9.png',
-        price: '1000$'
+        price: '50$'
     },
     {
-        name: 'Dog',
+        name: 'Bird',
         type: 'Omnivore',
-        img: 'https://bousefurhouse.com/wp-content/uploads/revslider/hospital/slider-dog-small.png',
-        price: '1000$'
+        img: 'https://pngimg.com/uploads/birds/birds_PNG116.png',
+        price: '100$'
     },
 
 ];
