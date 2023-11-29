@@ -72,7 +72,7 @@ h3 {
   box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0);
 }
 
-.Carnivore, .Omnivore, .Herbivore, .theme-btn {
+.Carnivore, .Omnivore, .Herbivore, .theme-btn, .Allbtn {
   background-color: white;
     border-radius: 2px;
     border-color: black;

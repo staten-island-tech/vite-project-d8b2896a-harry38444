@@ -45,7 +45,7 @@
         name: 'Cow',
         type: 'Herbivore',
         img: 'https://pngimg.com/d/cow_PNG50570.png',
-        price: '1000$'
+        price: '250$'
     },
     {
         name: 'Children',

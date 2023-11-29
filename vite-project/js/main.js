@@ -7,7 +7,8 @@ const DOMSelectors = {
     themeBtn: document.querySelector('.theme-btn'),
     carnivoreBtn: document.querySelector('.Carnivore'),
     herbivoreBtn: document.querySelector('.Herbivore'),
-    omnivoreBtn: document.querySelector('.Omnivore')
+    omnivoreBtn: document.querySelector('.Omnivore'),
+    allBtn: document.querySelector('.Allbtn'),
 }
 
 function clearfields(){
@@ -27,8 +28,7 @@ function insertCards(arr){
     });
 }
 
-let initialPets = pets.filter((pets) => pets.type === 'Carnivore');
-insertCards(initialPets);
+insertCards(pets)
 
 DOMSelectors.carnivoreBtn.addEventListener('click', function() {
     let newArr = pets.filter((pet) => pet.type === 'Carnivore');
@@ -46,6 +46,12 @@ DOMSelectors.omnivoreBtn.addEventListener('click', function() {
     let newArr = pets.filter((pet) => pet.type === 'Omnivore');
     clearfields();
     insertCards(newArr);
+});
+
+DOMSelectors.allBtn.addEventListener('click', function() {
+
+    clearfields();
+    insertCards(pets);
 });
 
 document.querySelector(".theme-btn").addEventListener("click", function () {
